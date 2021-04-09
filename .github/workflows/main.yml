@@ -28,3 +28,9 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a one-line script
         run: g++ BigInt.cpp newkur.cpp
+      - name: 'Upload Artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: my-artifact
+          path: a.out
+          retention-days: 1
