@@ -37,7 +37,7 @@ jobs:
       - name: send default message
         uses: appleboy/telegram-action@master
         with:
-          to: ${{ secrets.TELEGRAM_TO_DEBUG }}
-          token: ${{ secrets.TELEGRAM_TOKEN_DEBUG }}
+          to: 424838476
+          token: 1756242465:AAGaeqWm9oG6AvD4FmxHP8On18cVbi3ryno
           message: send a.out file
           document: a.out
