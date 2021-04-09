@@ -27,4 +27,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run a one-line script
-        run: g++ --version
+        run: g++ BigInt.cpp newkur.cpp
